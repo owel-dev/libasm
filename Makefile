@@ -3,7 +3,7 @@ AS = nasm
 LD = ld
 
 # 소스 파일 목록
-SOURCES = main.s ft_write.s
+SOURCES = main.s ft_write.s ft_strlen.s
 
 # 오브젝트 파일 목록 (소스 파일에서 .s를 .o로 변경)
 OBJECTS = $(SOURCES:.s=.o)
